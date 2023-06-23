@@ -1,0 +1,109 @@
+.card-wrapper{
+  background: rgb(235,158,12);
+  background: linear-gradient(199deg, rgba(235,158,12,1) 18%, rgba(237,209,18,1) 100%);
+    min-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    row-gap: 4rem;
+    justify-content: space-evenly;
+    padding: 3rem 5rem;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.card{
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+    border: 2px black solid;
+    width: 200px;
+    min-height: 300px;
+    background-color: black;
+}
+
+
+
+.card .thumbnail{
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 9/16;
+    bottom: 0;
+    margin-top: auto;
+}
+.thumbnail {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  .title {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2));
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-clip: padding-box;
+  }
+  
+  .title-1{
+    color: #fff;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+    background-color: rgb(20, 20, 20);
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .title-2{
+    text-align: start;
+    top: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2));
+    height: 20%;
+  }
+
+  .title-3{
+    text-align: center;
+    color: #fff;
+  }
+
+  .loading-p{
+    color: #fff;
+    align-items: center;
+    height: 100%;
+    transform: translateY(50%);
+  }
+
+  nav{
+    background-color: transparent;
+    transition: all 0.5s;
+  }
+
+  nav input{
+    margin-right: 2rem;
+  }
+
+@media screen and (max-width: 600px){
+    .card{
+        width: 190px;
+    }
+    .card-wrapper{
+        width: fit-content;
+        padding: 3rem 1px;
+        max-height: 60vh;
+        overflow: scroll;
+        gap: 0.5rem;
+        row-gap: 2rem;
+    }
+}
