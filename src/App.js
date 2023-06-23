@@ -118,7 +118,8 @@ function App() {
               }
             />
             <Route
-              path="/anime"
+              path="/home"
+
               element={
                 <HomePage
                   animeData={animeTop}
