@@ -68,7 +68,7 @@ function Navbar({ onInputChange,onInputChangeChar }) {
                   class="nav-link active btn btn-outline-danger p-2 mt-4 mt-lg-0"
                   aria-current="page"
 
-                  to={"/home"}
+                  to={"/anime"}
                 >
                   Home
                 </Link>
