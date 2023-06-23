@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dhitgt.github.io/anime-list.dhitgt.github.io",
+  "homepage": "https://dhitgt.github.io/anime",
   "name": "my-anime-list",
   "version": "0.1.0",
   "private": true,
@@ -43,5 +43,16 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhitgt.github.io/anime.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhitgt.github.io/anime/issues"
   }
 }
